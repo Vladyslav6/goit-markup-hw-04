@@ -108,11 +108,10 @@ img {
   text-decoration: none;
 }
 .first_site:hover::after {
-  content: "Studis";
+  content: "";
   position: absolute;
-  overflow: hidden;
-  /* width: 100%;
-  height: 4px; */
+  width: 100%;
+  height: 4px;
   left: 0;
   bottom: -1px;
   height: 4px;
