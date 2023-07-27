@@ -1,0 +1,343 @@
+:root {
+  --background-color: #ffffff;
+  --iris: #4d5ae5;
+  --first-site: #2e2f42;
+  --adress-var: #434455;
+  --section-one: #2e2f42;
+  --secti-two: #2e2f42;
+  --paragtwo: #434455;
+  --sectithree: #2e2f42;
+  --footercol: #2e2f42;
+  --colorteam: #2e2f42;
+  --footerpar: #f4f4fd;
+  --buttonport: #4d5ae5;
+  --bgroundport: #f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+/* Header */
+img {
+  display: block;
+}
+.header_clas {
+  border-bottom: 1px solid #e7e9fc;
+}
+.block_one {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.first_nav {
+  display: flex;
+  margin-right: 332px;
+  align-items: center;
+}
+
+.first_logo {
+  /* margin-right: 76px; */
+  padding: 24px 0;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.padding_test {
+  padding-left: 76px;
+}
+.second_logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.list {
+  display: flex;
+  gap: 40px;
+
+  align-items: center;
+  list-style: none;
+}
+.first_site {
+  padding: 24px 0;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-site);
+  text-decoration: none;
+}
+/* #404bbf */
+
+.first_site:hover {
+  color: #404bbf;
+}
+.first_site:focus {
+  color: #404bbf;
+}
+.adress {
+  /* padding: 24px 0; */
+  font-style: normal;
+}
+.adres_link {
+  padding: 24px 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--adress-var);
+  text-decoration: none;
+}
+.adres_link:hover {
+  color: #404bbf;
+}
+.adres_link:focus {
+  color: #404bbf;
+}
+/* Header_clouse */
+/* open_main */
+/* first_sect */
+.sect_one {
+  background-color: var(--section-one);
+  padding: 188px 0;
+}
+.first_header {
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.first_button {
+  display: block;
+  margin: 0 auto;
+  /* margin: 48px auto; */
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.first_button:hover {
+  background-color: #404bbf;
+}
+.first_button:focus {
+  background-color: #404bbf;
+}
+/* close_sect */
+/* two_sect */
+
+.sect-two {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list_new_one {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.list_test {
+  width: calc((100% - 72px) / 4);
+}
+
+.headsecti {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secti-two);
+  margin-bottom: 8px;
+}
+.parsectitwo {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragtwo);
+}
+
+/* section_two_clouse */
+/* sect_three */
+.secthree {
+  padding-bottom: 120px;
+}
+.sect_img {
+}
+.secthree .container .list {
+  gap: 24px;
+  /* margin-top: 72px;
+  padding-bottom: 120px; */
+  /* padding-top: 72px; */
+  /* background-color: #4d5ae5; */
+}
+.whatare {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--sectithree);
+  margin-bottom: 72px;
+}
+.list_items {
+}
+/* clouse_three_secti */
+/* four_secrion */
+
+.secour {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.secour .container .list {
+  text-align: center;
+  gap: 24px;
+}
+.photo {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.text_position {
+  padding: 32px 0 32px 0;
+}
+/* footer */
+.foot {
+  background-color: var(--footercol);
+  padding: 100px 0 100px;
+}
+.foot .container .first_logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.seclog {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.parfooter {
+  max-width: 264px;
+  max-height: 72px;
+  line-height: 1.5;
+  color: var(--footerpar);
+  letter-spacing: 0.02em;
+}
+
+/* portfolio */
+/* open_header_portfoio */
+.header_portfolio {
+  border-bottom: 1px solid #e7e9fc;
+}
+/* close_header_portfoio */
+.butport {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--buttonport);
+  background-color: var(--bgroundport);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+}
+.butport:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+.butport:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+
+/* open_section_button */
+.section_button {
+  padding: 96px 0 120px 0;
+}
+
+.listt {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+  list-style: none;
+}
+.list_img {
+}
+
+.section_button .container .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+/* gap: 24px; */
+.section_button .container .list .link .text_position {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+/* close_main */
+/* open_footer */
