@@ -132,6 +132,13 @@ img {
 .sect_one {
   background-color: var(--section-one);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/fone/people_office_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .first_header {
   /* margin: 0 auto; */
