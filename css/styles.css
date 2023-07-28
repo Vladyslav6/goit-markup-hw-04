@@ -377,3 +377,7 @@ img {
 
 /* close_main */
 /* open_footer */
+/* open_modal_div */
+.modal_window{
+  position: fixed;
+}
