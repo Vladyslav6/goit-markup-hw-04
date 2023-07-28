@@ -103,9 +103,17 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--first-site);
   text-decoration: none;
 }
+
+.first_site:hover {
+  color: #404bbf;
+}
+.first_site:focus {
+  color: #404bbf;
+}
+
 .first_site:hover::after {
   content: "";
   position: absolute;
@@ -117,12 +125,6 @@ img {
   border-radius: 2px;
 }
 
-.first_site:hover {
-  color: #404bbf;
-}
-.first_site:focus {
-  color: #404bbf;
-}
 .adress {
   /* padding: 24px 0; */
   font-style: normal;
