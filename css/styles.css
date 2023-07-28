@@ -354,6 +354,7 @@ img {
 }
 .custom_svg {
   fill: #8e8f99;
+  fill: currentColor;
 }
 .site_on_bot {
   display: flex;
@@ -369,6 +370,7 @@ img {
 }
 .site_on_bot:hover {
   color: #404bbf;
+  border-color: #404bbf;
 }
 .site_on_bot:focus {
   border-color: #404bbf;
