@@ -325,6 +325,13 @@ img {
   width: 100%;
   height: 100%;
 }
+.site_svg:hover {
+  background-color: #404bbf;
+}
+.site_svg:focus {
+  background-color: #404bbf;
+}
+
 /* footer */
 .foot {
   background-color: var(--footercol);
