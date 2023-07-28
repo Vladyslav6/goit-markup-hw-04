@@ -366,7 +366,11 @@ img {
   color: var(--bot_color);
 }
 .site_on_bot:hover {
+  color: #404bbf;
+}
+.site_on_bot:focus {
   border-color: #404bbf;
+  color: #404bbf;
 }
 /* footer */
 .foot {
