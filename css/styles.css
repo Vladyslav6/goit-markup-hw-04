@@ -381,6 +381,10 @@ img {
   background-color: var(--footercol);
   padding: 100px 0 100px;
 }
+.fotter_div {
+  display: flex;
+  align-items: baseline;
+}
 .foot .container .first_logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -455,7 +459,7 @@ img {
   gap: 24px;
   row-gap: 48px;
 }
-/* gap: 24px; */
+
 .section_button .container .list .link .text_position {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
