@@ -321,6 +321,11 @@ img {
 .svg_icons2 {
   fill: #f4f4fd;
 }
+.site_svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 /* footer */
 .foot {
   background-color: var(--footercol);
