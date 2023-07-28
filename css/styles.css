@@ -103,7 +103,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--first-site);
+  color: #404bbf;
   text-decoration: none;
 }
 .first_site:hover::after {
