@@ -397,10 +397,20 @@ img {
 }
 .foot_social {
 }
-.foot_social .test_svg {
+.foot_svg {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
   gap: 16px;
 }
-.Paragraph_foot {
+
+.foot_svg :hover {
+  background-color: #31d0aa;
+}
+.foot_svg:focus {
+  background-color: #31d0aa;
+}
+.par_foot {
   margin-bottom: 16px;
   color: var(--white);
   font-family: Roboto;
