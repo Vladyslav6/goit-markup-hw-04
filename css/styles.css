@@ -420,6 +420,9 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.foot_svg .list_svg {
+  border-radius: 50%;
+}
 .seclog {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
