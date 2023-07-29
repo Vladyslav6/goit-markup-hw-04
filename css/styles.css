@@ -553,6 +553,7 @@ img {
 .but_modal:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .svg_icons_footer {
   fill: #f4f4fd;
