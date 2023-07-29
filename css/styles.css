@@ -14,6 +14,7 @@
   --bgroundport: #f4f4fd;
   --cloud: #4d5ae5;
   --bot_color: #8e8f99;
+  --white: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -385,14 +386,30 @@ img {
   display: flex;
   align-items: baseline;
 }
-.fotter_div {
-}
+
 .foot .container .first_logo {
   display: inline-block;
   margin-bottom: 16px;
   padding: 0;
 }
-
+.foot_logo {
+  margin-right: 120px;
+}
+.foot_social {
+}
+.foot_social .test_svg {
+  gap: 16px;
+}
+.Paragraph_foot {
+  margin-bottom: 16px;
+  color: var(--white);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
 .seclog {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
