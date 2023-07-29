@@ -546,7 +546,7 @@ img {
 /* close_main */
 /* open_footer */
 /* open_modal_div */
-.is-hidden {
+.modal_window {
   position: fixed;
   top: 0;
   width: 100%;
@@ -601,6 +601,5 @@ img {
   fill: #ffffff;
 }
 .svg_icons_footer {
-  fill: #f4f4fd;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
