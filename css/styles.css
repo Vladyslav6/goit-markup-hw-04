@@ -545,3 +545,16 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.but_modal:hover {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+.but_modal:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.svg_icons_footer {
+  fill: #f4f4fd;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
